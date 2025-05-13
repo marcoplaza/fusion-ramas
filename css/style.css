@@ -1,0 +1,34 @@
+#contenido
+{
+  margin: 1em;
+}
+
+#contenido .item
+{
+  background: #FFFFFF;
+  border-bottom: 3px solid #22BCE0;
+  overflow: hidden;
+}
+
+#contenido .item .imagen_item
+{
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+#contenido .item .imagen_item img
+{
+  width: 96px
+}
+
+#contenido .item .titulo_item
+{
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+#contenido .item .titulo_item a
+{
+  color: #444;
+  text-decoration: none;
+}
