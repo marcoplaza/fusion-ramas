@@ -10,6 +10,11 @@
   overflow: hidden;
 }
 
+#contenido .item .autor_item
+{
+  color: #AAA;
+}
+
 #contenido .item .imagen_item
 {
   float: left;
