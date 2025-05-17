@@ -175,3 +175,30 @@ nav ul li a
 {
   float: right;
 }
+footer
+{
+  background: #22BCE0;
+  color: rgba(255,255,255,0.7);
+  padding: 1em;
+  text-align: center
+}
+
+footer p:first-child
+{
+  margin-bottom: 0;
+}
+
+footer p:last-child
+{
+  margin-top: 0;
+}
+
+footer p:last-child:after
+{
+  content: " -";
+}
+
+footer p:last-child:before
+{
+  content: "- ";
+}
